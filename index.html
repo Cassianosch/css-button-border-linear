@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-size: 3rem;
+            line-height: 1;
+            border-radius: 4rem;
+            padding: 2rem;
+            transition: all .18s ease;
+
+            --color1: #ffc600;
+            --color2: #f654ae;
+            --bs1: -2px -2px 0 2px var(--color1);
+            --bs2: 0 0 0 4px var(--color2);
+            --bs3: 0 0 2px 7px rgba(0, 0, 0, .5);
+
+            box-shadow: var(--bs1), var(--bs2), var(--bs3);
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            --color1: #f654ae;
+            --color2: #ffc600;
+            background-color: #cecece;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button>
+        Cassiano
+    </button>
+</body>
+
+</html>
